@@ -1,0 +1,60 @@
+body {
+	background-color: rgb(241, 242, 246);
+}
+
+header {
+	background-color: #4A89DC;
+	padding: 3.125em;
+	color: #E6E9ED;
+}
+
+h3 {
+	margin: .5em;
+}
+
+footer {
+	color: #e6e9ed;
+}
+
+.profile-pic {
+	border-radius: 50%;
+	border: 5px solid #E6E9ED;
+}
+
+.skills-list {
+	margin: 1.25em;
+	padding: 1em;
+}
+
+.skills-list > h3 {
+	text-align: center;
+}
+
+.background-list {
+	margin: 1.25em;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+ul.resume-links {
+	padding-left: 0;
+}
+
+ul.resume-links > li {
+	list-style-type: none;
+	text-align: center;
+}
+
+.resume-links a {
+	font-size: 6em;
+	color: #AAB2BD;
+	margin-right: 0.25em;
+	margin-left: 0em;
+}
+.resume-links a:last-of-type {
+	margin-right: 0;
+}
+
+ul.resume-links a:hover {
+	color: #CCD1D9;
+}
